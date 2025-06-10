@@ -1,0 +1,225 @@
+<!DOCTYPE html><!--ประกาศเวอร์ชันของhtml-->
+<html lang="en"> <!-- lang ใช้ระบุภาษาที่ใช้ และ html เป็นโครงสร้างที่ครอบทั้งหมด-->
+<head><!-- -->
+    <meta charset="UTF-8"> <!--meta charset="UTF-8" ใช้การระบุขอความตัวอักษรพิเศษได้-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ใช้ระบุการรองรับทุกหน้าจอ-->
+    <title>My test</title><!--ระบุชื่อเว็บของต้น-->
+</head> <!--html attributes--> 
+<body>           
+  <h1>gay</h1> 
+  <h2>gay</h2>
+  <h3>gay</h3>
+  <h4>gay</h4>
+  <h5>gay</h5>
+  <h6>gay</h6>
+<a href="https://google.com" target="_blank"> go to google</a> <!-- <a href=""></a> ใช้ในการเปลี่ยนหน้าเว็บ -->
+<a href="About.html" > go to die</a>
+
+<p>nigga</p>
+<p>nigga</p>
+<p>nigga</p> <!--คีลัดการเขียนคอมเมน ctrl+ฝ-->
+
+<table> 
+
+  <tr>
+       <th>gay</th> <!--ตัวหนังสือจะเข้มกว่าปกติและเป็นหัวข้อ-->
+        <th>gay01</th> <!--แต่ถ้าth ไม่มีข้อมูล(td)จะไม่โชข้อมูล-->
+         <th>gay02</th>
+         <th>postion</th>
+  </tr>
+  
+  <tr>
+        <td>1</td>   <!--ข้อมูลเรียงตามลำดับ-->
+        <td> small</td>
+        <td> noob</td>
+  </tr>
+   <tr>
+        <td>2</td>   <!--ข้อมูลเรียงตามลำดับ-->
+        <td> md</td>
+        <td> nah</td>
+  </tr>
+   <tr>
+        <td>3</td>   <!--ข้อมูลเรียงตามลำดับ-->
+        <td> big</td>
+        <td> wow</td>
+  </tr>
+
+</table><!-- ใช้เรียงแถวหรือจัดตาราง-->
+
+<!--เป็น HTML list ใช้จักการข้อมูลอยู่ในรูปแบบรายการ-->
+
+<ul> <!--ulเรียงเป็น .ไข่ปลา-->
+    <li>writh</li>
+    <li>Black</li>
+    <li>nigga</li>                    
+</ul>
+
+<ol> <!--olเรียงเป็นเลขไข่ปลา-->
+    <li>writh</li>
+    <li>Black</li>
+    <li>nigga</li>  
+</ol>
+
+<!--HTML Text Formatting
+สามารถกำหนดลักษณะให้ข้อความที่ใช้บ่อย(<b>,<strong>,<i>,<em>)-->
+
+  <b>Bold text</b><!--ทำให้ตัวหน้า-->
+  <strong>Import text</strong><!--ใช้กับข้อความสำคัญ-->
+  <i>Italic text</i><!--ข้อความตัวเอียง-->
+  <em>Emphasized text</em><!--การทำให้แน่นข้อความ-->
+  <mark>Marked text</mark><!--ทำเครื่องหมายที่ข้อความ-->
+  <small>Smaller text</small><!--ทำให้เล็กลง-->
+  <del>Deleted text</del><!--ข้อความที่ถูกลบ-->
+  <ins>Inserted text</ins><!--ใช้ทำให้ข้อความถูกแสก-->
+  <sub>Subscript text</sub><!--ทำให้เป็นข้อความตัวห้อย-->
+  <sup>Superscript text</sup><!--ข้อความตัวยก-->
+<!--/////////////////////////////////////////////////////////////-->
+
+
+<!--HTML form ใช้รวบรวมข้อมูลหรือป้อนข้อมูลของผู้ใช้ และ ข้อมูลจะถูกส่งไปประมวลที่server-->
+<form action="">
+  <label for="first name">First Name:</label><br> <!--<br>ใช้ตัดบันทัดใหม่-->
+  <input type="text"name="Firstname" placeholder="Enter"><br> 
+   <label for="Last name">Last Name:</label><br>
+  <input type="text"name="Lastname"placeholder="retnE"><br> <!--placeholder="Enter"ใช้บอกหรือเขียนเนื้อหาให้ผู้ใช้เห็น-->
+  <input type="button" value="Submit">
+  
+  <!--typeของinput-->
+
+<!--
+text	กล่องป้อนข้อความธรรมดา
+password	ป้อนรหัสผ่าน (แสดงเป็นจุด ●●●)
+email	ป้อนอีเมล (มีการตรวจรูปแบบ)
+number	ป้อนตัวเลข (มีปุ่มเพิ่ม/ลด)
+tel	ป้อนเบอร์โทรศัพท์
+url	ป้อน URL (ตรวจสอบรูปแบบลิงก์)
+search	กล่องค้นหา
+date	เลือกวันที่ (ปฏิทิน)
+time	เลือกเวลา
+datetime-local	เลือกวันและเวลา (ไม่มี timezone)
+month	เลือกเดือนและปี
+week	เลือกสัปดาห์ในปี
+color	ตัวเลือกสี (แสดง color picker)
+range	แถบเลื่อนค่า (slider)
+checkbox	กล่องติ๊กเลือก (หลายตัวเลือก)
+radio	ปุ่มเลือกแบบเลือกได้ 1 ข้อ (ในกลุ่มเดียวกัน)
+file	อัปโหลดไฟล์
+submit	ปุ่มส่งข้อมูลฟอร์ม
+reset	ปุ่มล้างค่าทั้งหมดในฟอร์ม
+button	ปุ่มทั่วไป (ไม่ทำอะไรเว้นแต่เขียน JS เพิ่ม)
+hidden	ช่องข้อมูลที่มองไม่เห็น (ซ่อนค่าไว้ในฟอร์ม)
+image	ใช้รูปภาพเป็นปุ่ม submit
+datetime ⚠️	(deprecated) เคยใช้เลือกวัน-เวลา แต่เลิกใช้แล้วใน HTML5 -->
+
+</form>
+<!-- Html block elements 1.จะเริ่มที่บรรทัดใหม่เสมอ
+                        2.จะมีระยะขอบให้มาตอนเริ่มต้น
+                        3.จะมีความกว้าง100%เต็มหน้าเว็บ
+                        4.ที่มักจะใช้กันบ่อยเช่น <div>,<p>,<header>,<footer>,<nav>,<section>,<form>,<ul> 
+  -->
+
+  <div>
+  <p> 
+  กดที่นักพัฒนาซอฟแว ดูและ ไปดูที่ขนาด
+  </p>
+  </div>
+  <div>
+  <p> 
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, a ea. Dicta neque aperiam sit, dignissimos id rem perspiciatis fugit ab adipisci, eveniet ex numquam minima tempora voluptatum repellendus placeat.
+  </p>
+  </div>
+
+<!--5.มีทั้งหมดดั้งนี้                          
+<div>	กล่องเอนกประสงค์ ใช้จัด layout
+<p>	ย่อหน้า (paragraph)
+<h1> ถึง <h6>	หัวเรื่อง ระดับ 1-6
+<ul>	รายการแบบไม่มีลำดับ (unordered list)
+<ol>	รายการแบบมีลำดับ (ordered list)
+<li>	รายการย่อยใน <ul> หรือ <ol>
+<section>	ส่วนของเอกสาร
+<article>	เนื้อหาที่เป็นบทความอิสระ
+<header>	ส่วนหัวของหน้า/บทความ
+<footer>	ส่วนท้ายของหน้า/บทความ
+<nav>	ลิงก์นำทาง (navigation)
+<aside>	เนื้อหาข้างเคียง เช่น sidebar
+<main>	เนื้อหาหลักของหน้า
+<form>	ฟอร์มรับข้อมูล
+<table>	ตาราง
+<thead>	ส่วนหัวของตาราง
+<tbody>	ส่วนข้อมูลของตาราง
+<tfoot>	ส่วนท้ายของตาราง
+<tr>	แถวในตาราง
+<td>	ช่องข้อมูลในแถว
+<th>	หัวตาราง-->
+
+
+<hr><!--hr คือ เส็นแบ่ง-->
+
+<!-- Html Inline elements 1.จะไม่เริ่มบรรทัดใหม่
+                          2.จะมีความกว้างตามภายใน
+                          3.ใช้บ่่อย เช่น <a>,<buttou>,<input>,<span>,<strong> -->
+<a href="#">boy</a>
+<a href="#">girl</a>
+<a href="#">animal</a>
+<a href="#">LGBT so noobs and they go to penny. AGIN!!!</a>
+
+<span> Text</span>
+ <span> Text0</span>
+ <span> Text1</span>
+ <!--4.มีทั้งหมดดังนี้
+<a>	ลิงก์ (anchor)
+<span>	อินไลน์ container เอนกประสงค์
+<b>	ตัวหนา (bold – ไม่มีความหมายเน้นเฉพาะ)
+<strong>	ตัวหนาแบบมีความหมาย (เน้นความสำคัญ)
+<i>	ตัวเอียง (italic – ไม่มีความหมายเฉพาะ)
+<em>	ตัวเอียงแบบมีความหมาย (เน้นเสียง/อารมณ์)
+<img>	แทรกรูปภาพ
+<br>	ขึ้นบรรทัดใหม่ (line break)
+<input>	ช่องกรอกข้อมูล
+<label>	ป้ายกำกับของ input
+<select>	เมนูดรอปดาวน์
+<textarea>	ช่องกรอกข้อความหลายบรรทัด
+<button>	ปุ่มกด
+<abbr>	คำย่อ
+<cite>	ชื่อหนังสือ/ผลงานอ้างอิง
+<code>	โค้ดโปรแกรม
+<mark>	ไฮไลต์ข้อความ
+<q>	ใส่คำพูด (quote สั้น ๆ)
+<small>	ตัวอักษรขนาดเล็กลง
+<sub>	ตัวห้อย (subscript) เช่น H₂O
+<sup>	ตัวยก (superscript) เช่น x²
+<time>	เวลา/วันที่
+<u>	ขีดเส้นใต้ (underline)
+<s>	ขีดฆ่าทับข้อความ
+<del>	ข้อความที่ลบ (strikethrough)
+<ins>	ข้อความที่เพิ่มเข้ามา
+<kbd>	คำสั่งที่พิมพ์จากแป้นพิมพ์
+<var>	ตัวแปร
+<bdo>	กำหนดทิศทางการเขียน
+<script>	ฝัง JavaScript (หรือเชื่อมไฟล์ภายนอก)
+<style>	ฝัง CSS-->
+
+  
+<!-- HTML Div 1.จะถูกใช้เป็นกล่องใส่ elements อื่นๆ
+                2.เป็น block elements
+                3.ใช้ว่่างโครงสร้างหน้าเว็บ -->
+<div> <!--Parent elements --->
+  
+  <H1> WOW</H1> <!-- child element-->
+  <P> WOPW</P>
+</div>
+
+<div>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure atque est sunt distinctio rerum placeat laborum voluptas? Quia dicta mollitia aliquam tenetur, molestias, quis suscipit voluptatem autem odit omnis consectetur. 
+   </p>
+</div>
+
+<!--HTML clas  attributes หรือ คุณสมบัติของ HTML ใช้classระบุชือให้กับแท็ก html ได้
+1.จะถูกใช้อ้างอิงไปที่css
+2.สามรถกำหนด class ได้หลายตัว
+3.classใช้ส้ำได้-->
+
+
+</body>
+</html>
