@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&display=swap');
+/*นี้คือelement Selectors*/
+/* p{
+    /* color: red; 
+    text-align: center;
+} */
+
+
+/*class Selectors */
+.box1{
+    width: 100px;/*สามารถกำหนดเป็น%ได้*/
+    height: 100px;
+    background-color: red;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+
+/* ID selectors*/
+#box4 {
+width: 300px;
+height: 100px;
+background-color: aqua;
+margin: 50px;
+}
+
+
+/*CSS Box Model */
+.boxmodel{
+    width: 300px;
+    height: 200px;
+    background-color: chartreuse;
+    
+    /* CSS Padding */
+
+    /* padding: 100px;จะกำหนด บน ขวา ล่าง ซ้าย */
+    /* padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 50px; */
+    /**แบบshort hand จะเหมือน marginเลย**/
+    /* padding: 50px 30px; */
+    padding: 30px 40px 50px;
+           /*บน ซ้ายมขวา ล่าง*/
+
+   
+
+    border: 10px solid black;
+
+    /*** CSS Margin ***/
+    /* margin: 50px; */
+    
+    /*สามารถทำเฉพาะด้านได้*/
+    /* margin-top: 20px;/
+    /* margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 60px; */
+
+    /*สามารถทำเฉพราะคู่ บนล่าง,ซ้ายขวา ได้*/
+    /* margin: 30px 50px;*/
+
+    /*แบบเฉพาะ3ด้าน*/
+    margin: 40px 60px 20px ;
+            /*บน ซ้ายมขวา ล่าง*/
+
+}
+
+
+/*** CSS TEXT ***/
+.TEXT{
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+    color: blue;
+    text-align: center;/*เป็นคำสั่งเลือกระบุตำแหน่งของข้อความ*/      
+/* นี้คือคำสั่งทั้งหมดของ text-align
+left	                จัดชิดซ้าย (ค่ามาตรฐาน)
+right	                จัดชิดขวา
+center	                จัดกึ่งกลาง
+justify	                กระจายข้อความให้พอดีกับกล่องข้อความ
+start	                จัดข้อความตามทิศทางของภาษา (LTR จะเหมือน left, RTL จะเหมือน right)
+end	                    ตรงข้ามกับ start (LTR จะเหมือน right, RTL จะเหมือน left)*/
+}
+
+.write{
+    /* text-decoration: overline underline; 
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;/ใช้กำหนดความหยาของเส้น/
+    text-decoration-style: dotted;/ใช้กำหนดรูปแบบเส้นได้ */
+    
+    /* นี้คือคำสั่งทั้งหมดของ text-decoration:
+none	        ไม่มีการตกแต่งข้อความ (เช่น ลบเส้นใต้ของลิงก์)
+underline	    ขีดเส้นใต้ข้อความ
+overline	    ขีดเส้นด้านบนข้อความ
+line-through	ขีดเส้นกลางข้อความ (เหมือนขีดฆ่า)
+blink ⚠️	    ทำให้ข้อความกระพริบ (เก่ามาก และเบราว์เซอร์ส่วนใหญ่ไม่รองรับแล้ว) */
+
+/********นี้แบบ short hand ********/
+text-decoration: underline red double 5px ;
+
+
+text-transform: uppercase;/*ทำให้เป็นพิมใหญ่หรือเล็ก*/
+/* คำสั่งทั้งหมด
+none	        แสดงข้อความตามที่เขียนไว้ (ไม่มีการเปลี่ยนรูปแบบตัวอักษร)
+uppercase	    แปลงตัวอักษรทั้งหมดเป็น ตัวพิมพ์ใหญ่
+lowercase	    แปลงตัวอักษรทั้งหมดเป็น ตัวพิมพ์เล็ก
+capitalize	    ขึ้นต้นคำแต่ละคำเป็นตัวพิมพ์ใหญ่
+full-width	    แสดงอักขระเป็นรูปแบบ ฟูลวิดท์ (ใช้กับภาษาญี่ปุ่น/จีนบางกรณี)
+full-size-kana	ใช้กับ คานะญี่ปุ่น ให้เป็นฟูลไซส์ (เฉพาะในบางภาษา/เบราว์เซอร์)*/
+
+/*สามารถจัดระยะห่างย่อหน้าได้ด้วยดังนี้*/
+text-indent: 50px;
+
+/*ระยะห่างขแงตัวอักษร*/
+letter-spacing: 10px;
+
+/*ระยะหห่างระหว่างบรรทัด*/
+line-height: 1.5;
+
+/*เว้นระยะห่างระหว่างคำ*/
+word-spacing: 10px;
+
+/*สามารถจะตัดบรรทัดหรือไม่ก็ได้*/
+white-space: nowrap; 
+
+/*ใส่เงาให้กับข้อความ*/
+text-shadow:   2px   2px        5px        red;
+            /*แกน x  แกนy ความเบลอของเงา*/
+}
+
+
+
+/*CSS FONT เปลี่ยนFontของเนื้อหา*/
+.Font{
+ height: 300px;
+ width: 300px;
+ background-color: pink;
+ color: black;
+ text-align: justify;
+
+ /*เปลี่ยนfont สามารถหาในเว็บ google fonts*/
+ font-family: "Manrope", sans-serif;
+ 
+ /*เพิ่มขนานfont*/
+/* font-size: 30px; */
+
+/*กำหนดรูปแบบให้กับfont*/
+/* font-style: italic; */
+
+/* คำสั่งทั้งหมด
+normal	    ตัวอักษรปกติ (ไม่เอียง)
+italic	    ตัวอักษร เอียง โดยใช้ฟอนต์แบบ italic (หากมี)
+oblique	    ตัวอักษร เอียง เช่นกัน แต่จะเอียงแบบ “เฉียง” ไม่ใช่ italic จริง ๆ
+initial	    คืนค่าให้เป็นค่าตั้งต้นของเบราว์เซอร์
+inherit	    รับค่าจากองค์ประกอบแม่ (parent)
+revert	    กลับไปใช้ค่าจาก stylesheet ก่อนหน้า
+unset	    เอาค่าทั้งหมดออก (เหมือน inherit หรือ initial แล้วแต่กรณี) */
+
+/*ทำให้fontหนา*/
+/* font-weight: bold; */
+}
